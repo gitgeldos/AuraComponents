@@ -19,7 +19,7 @@ public with sharing class RESTRequestController {
         return null;
     }
 
-
+    
     @AuraEnabled
     public static void updateRecords(List<Account> accounts) {
         accounts = getExternalData();
