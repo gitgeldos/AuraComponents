@@ -1,5 +1,5 @@
 public with sharing class Def {
-    public Def() {
-
+    public static void print(){
+        System.debug('Test');
     }
 }
